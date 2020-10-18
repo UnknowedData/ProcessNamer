@@ -22,7 +22,7 @@ for proc in psutil.process_iter():
 		
 		
 		import socket
-		UDP_IP = "127.0.0.1"
+		UDP_IP = "XXX.XXX.XXX.XXX"
 		UDP_PORT = 8080
 		MESSAGE = (processName)
 		sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
